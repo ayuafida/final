@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import jwt_decode from 'jwt-decode'
+import {ButtonContainer} from './Button';
+import {Link} from 'react-router-dom';
+
 
 class Profile extends Component {
   constructor() {
@@ -43,6 +46,10 @@ class Profile extends Component {
                 <td>Email</td>
                 <td>{this.state.email}</td>
               </tr>
+
+              <Link to="/Editprofile">
+                        <ButtonContainer className="mr-2">Edit</ButtonContainer>
+                    </Link>
             </tbody>
           </table>
         </div>

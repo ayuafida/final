@@ -24,7 +24,7 @@ class Modal extends Component {
                                         <h5>Barang di tambahkan ke keranjang</h5>
                                         <img src={Image} className="img-fluid" alt="product" />
                                         <h5>{ProductName}</h5>
-                                        <h5 className="text-muted">Harga :  {Price}</h5>
+                                        <h5 className="text-muted">Harga : Rp.{Price}</h5>
                                         <Link to="/" className="mr-2">
                                             <ButtonContainer onClick={()=> closeModal()}>
                                                 Lanjut belanja

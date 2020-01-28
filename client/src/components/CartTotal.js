@@ -8,22 +8,28 @@ export default function CartTotal({value}) {
             <div className="container">  
             <div className="row">
                 <div className="col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-right">
-                    <Link to="">
+                    <Link to="/cart">
                         <button className="btn btn-outline-danger text-uppercase mb-3 px-5" type="button" onClick={()=>clearCart()}>
                             Hapus keranjang
                         </button>
                     </Link>
                     <h5>
-                        <span className="text-title">subtotal :</span>
-                        <strong>{cartSubtotal}</strong>
+                    <strong>
+                        <span >subtotal : </span>
+                        Rp. {cartSubtotal}
+                    </strong>
                     </h5>
                     <h5>
-                        <span className="text-title">pajak :</span>
-                        <strong>Rp. {cartTax}</strong>
+                    <strong>
+                        <span >pajak : </span>
+                        Rp. {cartTax}
+                    </strong>
                     </h5>
                     <h5>
-                        <span className="text-title">total :</span>
-                        <strong>Rp. {cartTotal}</strong>
+                    <strong>
+                        <span>total : </span>
+                        Rp. {cartTotal}
+                    </strong>
                     </h5>
                 </div>
             </div>

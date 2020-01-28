@@ -39,7 +39,7 @@ class Product extends Component {
                     <div className="card-footer justify-content-between">
                         <p className="align-self-center mb-0"> {ProductName} </p>
                         <h5 className="text-blue font-italic mb-0 mt-1">
-                            <span className="mr-1"></span>{Price}
+                            <span className="mr-1">Rp.</span>{Price}
                         </h5>
                     </div>
                 

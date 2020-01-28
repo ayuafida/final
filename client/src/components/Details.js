@@ -19,7 +19,7 @@ class Details extends Component {
                                 <div className="col-10 mx-auto text-center text-slanted text-capitalize text-blue my-5">
                     <h1>{ProductName}</h1>
                
-                <h4 className="text-blue"><strong>Harga :  {Price} </strong></h4>
+                <h4 className="text-blue"><strong>Harga : Rp.{Price} </strong></h4>
               
                 <div>
                     <Link to="/">

@@ -16,6 +16,7 @@ import Footer from './components/Footer';
 import Register from './components/Register';
 import Login from './components/Login';
 import Profile from './components/Profile';
+import Editprofile from './components/Editprofile';
 import ProductList2 from './components/ProductList2';
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
          <Route path="/produk" component={ProductList2}/>
          <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/editprofile" component={Editprofile} />
             <Route exact path="/profile" component={Profile} />
          <Route component={Default}/>
 
